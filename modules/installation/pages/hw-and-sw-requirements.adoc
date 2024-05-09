@@ -57,7 +57,7 @@ The software has been tested on the operating systems listed below:
 | Oracle Linux 8.0 to 8.4
 | ✓
 
-| Windows (all version)
+| Windows (all versions)
 | X
 
 | MacOS (Intel and M1 chip)
@@ -143,7 +143,7 @@ This page provides some general guidelines for hardware selection based on simpl
 
 The sizing recommendations below apply to each server node. If you have more than several hundred gigabytes of data, you should consider deploying a cluster of multiple nodes, to distribute your data.
 
-NOTE: Consult a TigerGraph solution architects for an estimate of memory and storage needs.
+NOTE: Consult a TigerGraph solution architect for an estimate of memory and storage needs.
 
 === Personal Use
 Example profile: A single user on a personal computer (desktop or laptop), who is learning to use the software and to write applications.
@@ -209,7 +209,7 @@ For example, *Intel Core i5* may be good enough for development or certain test 
 
 CPU clock speeds are not directly comparable across different processor designs, but within the same processor family, faster is better. We highly recommend using a *speed of 3.00GHz or higher*.
 
-Below is an example of a production hardware configuation.
+Below is an example of a production hardware configuration.
 ```
 Architecture:        x86_64
 CPU op-mode(s):      32-bit, 64-bit
@@ -241,7 +241,7 @@ RAM is not only size but also type. DDR4 or faster is recommended because it giv
 
 ==== Disk
 
-As stated in the <<_hardware_requirements>> section, solid state drive (SSD) storage is *mandatory* for TigerGraph.
+As stated in the <<_hardware_requirements>> section, solid-state drive (SSD) storage is *mandatory* for TigerGraph.
 The longer data access times of spinning hard disks (HDD) can cause several issues, such as the following:
 
 * Timeouts between internal components of TigerGraph
